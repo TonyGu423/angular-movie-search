@@ -31,7 +31,7 @@
               <strong>Released</strong>
               <p>{{::movie.year}}</p>
             </li>
-            <li ng-if="movie.ratings.critics_score">
+            <li ng-if="movie.ratings && movie.ratings.critics_score">
               <strong>{{::movie.ratings.critics_rating}}</strong>
               <p>{{::movie.ratings.critics_score}}</p>
             </li>
