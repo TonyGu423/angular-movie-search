@@ -78,6 +78,10 @@ gulp.task('usemin', ['clean', 'styles'], () => {
 // ----------------------------------------
 gulp.task('pipeline', ['usemin'], () => {
   
+  // no jekyll
+  gulp.src('.nojekyll')
+    .pipe(gulp.dest(config.dist));
+
   // images
   gulp.src([
     config.imgsSrc
