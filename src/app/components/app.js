@@ -2,7 +2,7 @@
  * App
  */
 export default {
-  templateUrl: '/views/_app.tpl.html',
+  templateUrl: 'views/_app.tpl.html',
   controller: [
     '$state',
     'App',
