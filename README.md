@@ -1,4 +1,4 @@
-![](/src/assets/img/readme_image.png)
+![](/src/assets/img/movie-search.png)
 
 # Creating a Movie Search App with Babel, Browserify, and Angular 1.5
 
